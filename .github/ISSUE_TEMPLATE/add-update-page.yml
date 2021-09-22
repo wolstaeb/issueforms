@@ -44,11 +44,13 @@ body:
     attributes:
       label: "Which language does the change effect?"
       options:
-        - label: English
-        - label: Indonesian
+        - label: "**English**"
+        - label: **Indonesian**
         - label: Japanese
         - label: Korean
         - label: Vietnamese
+    validations:
+      required: true
 
   - type: dropdown
     id: page-section
