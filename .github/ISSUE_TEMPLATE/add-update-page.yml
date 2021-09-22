@@ -16,11 +16,10 @@ body:
     attributes:
       value: The first thing to do is to replace the text *<TITLE>* in the issue title above with a very short description of the change you want.
   - type: textarea
-    id: what-happened
+    id: short-description
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Description of change
+      description: Please write a short outline of the change you want to see.
+      placeholder: Add/Update the website with the following changes...
     validations:
       required: true
