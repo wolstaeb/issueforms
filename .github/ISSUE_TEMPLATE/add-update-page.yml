@@ -14,7 +14,7 @@ body:
       value: "### Change the issue <TITLE>"
   - type: markdown
     attributes:
-      value: The first thing to do is to replace the text \'<TITLE>\' in the issue title above with a very short description of the change you want.
+      value: The first thing to do is to replace the text *<TITLE>* in the issue title above with a very short description of the change you want.
   - type: textarea
     id: what-happened
     attributes:
