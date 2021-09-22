@@ -1,0 +1,24 @@
+name: Add or Update Web Page
+description: Add or update a page document to the Website.
+title: ':page_facing_up: Add new document for <DOCUMENT TITLE>'
+labels: ["documentation", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Thank you for contributing to our project!"
+  - type: markdown
+    attributes:
+      value: |
+        L1 Thanks for taking the time to fill out this bug report.
+        L2 Thanks for taking the time to fill out this bug report.
+        L3 Thanks for taking the time to fill out this bug report.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Issue Forms Testing
+    url: https://gh-community.github.io/issue-template-feedback/structured/
+    about: Trying out Github issue forms on a test repo.
