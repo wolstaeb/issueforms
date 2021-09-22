@@ -10,12 +10,21 @@ body:
     attributes:
       value: We welcome contributions and suggestions from our community. Any improvements help. Please fill out the details of your suggestion for adding or updating content on the Cardano Catalyst Community (C3) Eastern Townhall website.
 
+  - type: input
+    id: page-title
+    attributes:
+      label: Page Title
+      description: "The first thing to do is to replace the text *<TITLE>* in the issue title above with a very short description of the change you want. Add a longer title here."
+      placeholder: "<DOCUMENT TITLE>"
+    validations:
+      required: true
+
   - type: markdown
     attributes:
       value: "## Change the issue <TITLE>"
   - type: markdown
     attributes:
-      value: The first thing to do is to replace the text *<TITLE>* in the issue title above with a very short description of the change you want.
+      value: 
 
   - type: textarea
     id: short-description
@@ -34,6 +43,8 @@ body:
       options:
         - Add a new page
         - Change to exisitng page
+    validations:
+      required: true
 
   - type: checkboxes
     id: language
@@ -45,8 +56,6 @@ body:
         - label: Japanese
         - label: Korean
         - label: Vietnamese
-    validations:
-      required: true
 
   - type: dropdown
     id: page-section
