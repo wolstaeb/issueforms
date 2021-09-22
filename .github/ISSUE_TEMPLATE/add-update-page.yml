@@ -1,18 +1,15 @@
-name: Add or Update Web Page
-description: "Add or update a page/document to the Website."
+name: Add or Update C3 ETH Page
+description: "Add or update a page/document to the C3 ETH Website."
 title: ":page_facing_up: Add new page/document for <TITLE>"
 labels: ["documentation", "help wanted"]
 body:
   - type: markdown
     attributes:
-      value: "## Thank you for contributing to our project!"
-  - type: markdown
-    attributes:
       value: |
-        L1 Thanks for taking the time to fill out this bug report.
-        L2 Thanks for taking the time to fill out this bug report.
-        L3 Thanks for taking the time to fill out this bug report.
-
+      "## Thank you for contributing to our project!"
+      "We welcome contributions and suggestions from our community. Any improvements help. Please fill out the details of your suggestion for adding or updating content on the Cardano Catalyst Community (C3) Eastern Townhall website."
+      "### Change the issue <TITLE>"
+      "The first thing to do is to replace the text \'<TITLE>\' in the issue title above with a very short description of the change you want."
   - type: textarea
     id: what-happened
     attributes:
