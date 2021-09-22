@@ -45,7 +45,7 @@ body:
       label: "Which language does the change effect?"
       options:
         - label: "**English**"
-        - label: **Indonesian**
+        - label: "**Indonesian**"
         - label: Japanese
         - label: Korean
         - label: Vietnamese
