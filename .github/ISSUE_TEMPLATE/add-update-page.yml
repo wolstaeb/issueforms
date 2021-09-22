@@ -8,12 +8,13 @@ body:
       value: "## Thank you for contributing to our project!"
   - type: markdown
     attributes:
-      value: |
-      "We welcome contributions and suggestions from our community. Any improvements help. Please fill out the details of your suggestion for adding or updating content on the Cardano Catalyst Community (C3) Eastern Townhall website."
+      value: We welcome contributions and suggestions from our community. Any improvements help. Please fill out the details of your suggestion for adding or updating content on the Cardano Catalyst Community (C3) Eastern Townhall website.
   - type: markdown
     attributes:
       value: "### Change the issue <TITLE>"
-      "The first thing to do is to replace the text \'<TITLE>\' in the issue title above with a very short description of the change you want."
+  - type: markdown
+    attributes:
+      value: The first thing to do is to replace the text \'<TITLE>\' in the issue title above with a very short description of the change you want.
   - type: textarea
     id: what-happened
     attributes:
