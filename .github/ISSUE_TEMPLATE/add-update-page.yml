@@ -105,4 +105,5 @@ body:
       label: Wanting to help?
       description: "Can you help progress your suggestion? If so please add a way to contact you. GitHub, Email, or Discord id will do."
       placeholder: How do we contact you?
+    validations:
       required: false
