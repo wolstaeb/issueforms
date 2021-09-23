@@ -43,6 +43,7 @@ body:
     id: language
     attributes:
       label: "Which language does the change effect?"
+      description: "Please check each language that your sugguestion effects. If you just want to update a tranlsation of an existing page then check that language. If you think it applies to all of the supported langauges then check them all. For new language support not shown here please raise a separate issue for *new language support*."
       options:
         - label: "**English**"
         - label: "**Indonesian**"
@@ -56,6 +57,7 @@ body:
     id: page-section
     attributes:
       label: "Which section of the website should the change be made?"
+      description: "Please select which section of the website your change should be made. The sections are constantly evolving so if what you want to see is not reflected in the sections available please select other and add a note in the additional information below."
       options:
         - Catalyst Guides
         - Blog Post
@@ -69,6 +71,7 @@ body:
         - About
         - Home Page
         - Catalyst ETH Proposal
+        - Other
     validations:
       required: true
   
@@ -94,7 +97,7 @@ body:
     id: additional-info
     attributes:
       label: Additional Information
-      description: Please add any other additional information that might help in us determine if you suggestion should be done, or helps us write the content.
+      description: Please add any other additional information that might help in us determine if your suggestion be progressed, or helps us write the content. References, images, and other documents can be attached.
       placeholder: Add/Update the website with the following changes...
     validations:
       required: false
